@@ -106,7 +106,7 @@ while True:
                 msg = EmailMessage()
                 msg['Subject'] = link.text
                 msg['From'] = 'Remainder Team'
-                msg['To'] = 'arindamparia321@gmail.com'
+                msg['To'] = 'supratimmondal140@gmail.com'
                 msg.set_content(link.get_attribute("href"))
                 server1 = smtplib.SMTP_SSL("smtp.gmail.com", 465)
                 server1.login("collegeremainder@gmail.com", "Nitdgp@9064")
